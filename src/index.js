@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Contador } from "./components/Contador";
 import { Texto } from "./components/Texto";
 import { Lista } from "./components/lista";
+import { Puerta } from "./components/Image";
 const root=ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -10,6 +11,7 @@ root.render(
     <Contador />
     <Texto />
     <Lista />
+    <Puerta />
 
   </>
 )
